@@ -34,60 +34,6 @@ $(document).ready(function(){
     });
 });
 
-/*console.log('hello');
-alert('This page is not fully responsive yet, it would be better if you are on pc or mobile')
-
-var b = 'smoothie';
-console.log(b);
-
-
-var someNumber = 45;
-
-console.log(someNumber);
-
-
-document.getElementById('java').innerHTML = 'This is email is invalid for now';
-
-
-var name = prompt('What is your name?')
-
-document.getElementById('java').innerHTML = name;
-
-
-var welcome = prompt('What is your name?');
-
-document.getElementById('java2').innerHTML = welcome;
-*/
-
-// Numbers
-
-var num = 10;
-
-console.log(num);
-
-// Increment method 1
-num= num + 1;
-
-console.log(num);
-
-// Increment method 2
-num++;
-console.log(num);
-
-// Decrement method 1
-num--;
-console.log(num);
-
-// Decrement method 2
-num= num - 1;
-console.log(num);
-// Increment/Decrement by any number
-num += 20;
-console.log(num);
-
-num -= 20;
-console.log(num);
-
 
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
@@ -105,12 +51,12 @@ function scrollFunction() {
 
 /*Disabling right click*/
 
-document.addEventListener("contextmenu",function(right_disable){
+/*document.addEventListener("contextmenu",function(right_disable){
     right_disable.preventDefault();
 });
 
 
-alert("Right click is disabled for this site");
+alert("Right click is disabled for this site");*/
 
 
 /*Disabling right click*/
